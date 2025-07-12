@@ -1,0 +1,14 @@
+# ===== Frontend (React) =====
+Lms-UI/node_modules/
+Lms-UI/build/
+
+# ===== Backend (.NET) =====
+backend/bin/
+backend/obj/
+backend/appsettings.Development.json
+backend/appsettings.Local.json
+
+# ===== General =====
+.vscode/
+*.log
+.env

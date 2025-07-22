@@ -1,21 +1,34 @@
 # ===== Frontend (React) =====
 Lms-UI/node_modules/
 Lms-UI/build/
+Lms-UI/.env
+Lms-UI/.pnp
+Lms-UI/.pnp.js
+Lms-UI/coverage/
+Lms-UI/npm-debug.log*
+Lms-UI/yarn-debug.log*
+Lms-UI/yarn-error.log*
 
 # ===== Backend (.NET) =====
 backend/bin/
 backend/obj/
+backend/.vs/
+backend/*.user
+backend/*.suo
+backend/*.VC.db
+backend/*.cache
+backend/.idea/
+
+# Sensitive config files
+backend/appsettings.json
 backend/appsettings.Development.json
 backend/appsettings.Local.json
-backend/appsettings.*.json
-backend/*.user
-backend/.vs/
+backend/secrets.json
 
 # ===== General =====
 .vscode/
 *.log
 .env
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+.DS_Store
+Thumbs.db
+desktop.ini
